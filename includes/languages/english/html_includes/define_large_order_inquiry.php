@@ -1,0 +1,1 @@
+<div class="big black pad_5"><p class="mt10">Found a lower price on other websites ? Let us know. Although we can't match every price reported, we'll use your feedback to ensure that our prices remain competitive.(*required fields)</p><p class="mt10"> Each Price Match request will be handled within 2 business days, and we will contact you by email.</p></div>

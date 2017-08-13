@@ -1,0 +1,51 @@
+##### NOTE: Replace /shop/ with the relative web path of your catalog in the "Rewrite Base" line below:
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymLinks
+#Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteBase /
+Options +FollowSymLinks
+php_flag magic_quotes_gpc Off
+RewriteEngine On
+RewriteBase /
+ExpiresActive On
+ExpiresDefault A600
+ExpiresByType image/x-icon A2592000
+ExpiresByType application/x-javascript A2592000
+ExpiresByType text/css A604800
+ExpiresByType image/gif A2592000
+ExpiresByType image/png A2592000
+ExpiresByType image/jpeg A2592000
+ExpiresByType text/plain A86400
+ExpiresByType application/x-shockwave-flash A2592000
+ExpiresByType video/x-flv A2592000
+ExpiresByType application/pdf A2592000
+ExpiresByType text/html A600
+<ifmodule mod_deflate.c>
+AddOutputFilter DEFLATE html xml php js css
+</ifmodule>
+
+ErrorDocument 404 /page_not_found.php
+RewriteRule ^(.*)/([a-zA-Z0-9_-]+)_c([0-9]+).html$ index\.php?main_page=index&cPath=$3&other=$1&%{QUERY_STRING} [L]
+RewriteRule ^(.*)_p(.*).html$ index\.php?main_page=product_info&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)_c([0-9]+).html$ index\.php?main_page=index&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)_c([0-9]+)$ index\.php?main_page=index&cPath=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)_c([0-9]+)/(.*)$ index\.php?main_page=index&cPath=$2&display=$3&%{QUERY_STRING} [L]
+RewriteRule ^(.*)_c([0-9]+)/(.*)/(.*).html$ index\.php?main_page=index&cPath=$2&display=$3&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pi-([0-9]+).html$ index\.php?main_page=popup_image&pID=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pr-([0-9]+).html$ index\.php?main_page=product_reviews&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-pri-([0-9]+).html$ index\.php?main_page=product_reviews_info&products_id=$2&%{QUERY_STRING} [L]
+RewriteRule ^producttags/(.*)/$ index\.php?main_page=producttags&letter=$1&%{QUERY_STRING} [L]
+RewriteRule ^producttags/(.*)/([0-9]+).html$ index\.php?main_page=producttags&letter=$1&page=$2&%{QUERY_STRING} [L]
+#RewriteRule ^wholesaletags/(.*)-is-(.*)-sid-(.*)-ls-(.*).html$ index\.php?main_page=advanced_search_result&keyword=$1&inc_subcat=$2&search_in_description=$3&categories_id=$4&%{QUERY_STRING} [L]
+#RewriteRule ^wholesaletags/(.*)-is-(.*)-sid-(.*).html$ index\.php?main_page=advanced_search_result&keyword=$1&inc_subcat=$2&search_in_description=$3&%{QUERY_STRING} [L]
+RewriteRule ^wholesaletags/(.*).html$ index\.php?main_page=advanced_search_result&keyword=$1&%{QUERY_STRING} [L]
+#RewriteRule ^advanced_search_result?(.*)$ index\.php?main_page=advanced_search_result&keyword=$1&%{QUERY_STRING} [L]
+# For Open Operations Info Manager
+RewriteRule ^(.*)-i-([0-9]+).html$ index\.php?main_page=info_manager&pages_id=$2&%{QUERY_STRING} [L]
+# All other pages
+# Don't rewrite real files or directories
+RewriteCond %{REQUEST_FILENAME} !-f [NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*).html$ index\.php?main_page=$1&%{QUERY_STRING} [L]
+###End Kloxo PHP config Area

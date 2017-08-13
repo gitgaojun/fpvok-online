@@ -1,0 +1,23 @@
+﻿/*Pic*/
+
+
+/*侧栏菜单*/
+
+#dsav ul li.expand{ background:#fff}
+#dsav ul li.nochildren span,#dsav ul li.expand.active span{background:url(../images1/list_ico.gif) 5px -379px no-repeat;}
+#dsav ul li.expand span,#dsav ul li.expand.active span{background:url(../images1/list_ico.gif) 0 -354px no-repeat;}
+#dsav ul li.expand a{color:#333335}
+#dsav ul li.expand ul li.expand a{background:url(../images1/list_ico.gif) 0 -392px no-repeat;color:#333335;}
+
+#dsav ul li a:hover{color:#0188cc;text-decoration:none;}
+#dsav ul li a.active{background:#aaa;color:#fff;height:auto;margin-top:1px;}
+
+
+
+#dsav ul li ul li a:hover,#dsav ul li ul li a.active{background:url(../images1/list_ico.gif) 25px -391px no-repeat;text-decoration:none;color:#F60;}
+#dsav ul li.expand ul li.expand ul{width:208px;height:auto;border-top:none;padding:0 0 5px 0;margin-left:10px;background:#fff;border-bottom:#f5edd9 solid 1px;}
+#dsav ul li.expand ul li.expand ul li a{text-indent:25px;height:21px;display:block;font-size:11px;color:#666;width:221px;background:#fff url(../images1/list_ico.gif) 20px 9px no-repeat;}
+/*write_review*/
+
+.revieweditems_h h1{font-size:14px; font-weight:normal;}
+.revieweditems_h a{text-decoration:underline;color:#ff5a00}
