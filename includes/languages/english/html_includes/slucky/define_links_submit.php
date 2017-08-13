@@ -1,3 +1,0 @@
-<p>Please choose the most appropriate category for your link. <strong></strong> reserves the right to change the category or edit your description, if needed.</p>
-<p>If you are uploading an image, please make sure that it is px wide and px high.</p>
-<p><span style="color: red;">Kindly note that our <strong>robot checks  reciprocal links daily</strong>, if our link isn't found on your page your  link will be automatically erased from this directory.</span></p>

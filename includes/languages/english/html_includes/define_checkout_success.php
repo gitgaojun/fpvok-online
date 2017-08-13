@@ -1,1 +1,0 @@
-<p>Thanks for shopping with us online!</p>

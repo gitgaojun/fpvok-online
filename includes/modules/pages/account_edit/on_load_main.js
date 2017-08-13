@@ -1,1 +1,0 @@
-update_zone(document.email_information);

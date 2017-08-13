@@ -1,1 +1,0 @@
-<?php require('includes/languages/english/html_includes/define_vip.php'); ?>
