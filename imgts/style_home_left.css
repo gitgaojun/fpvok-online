@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.dailydeals {
+
+    border: 1px solid #DDDDDD;
+
+    height: 243px;
+
+    width: 190px;
+
+}
+
+.fright {
+
+    float: right;
+
+}
+
+.dailydeals_h {
+
+    background: url("../images/listhead_bg.jpg") repeat-x scroll 0 0 transparent;
+
+    color: #11447E;
+
+    font-weight: bold;
+
+    height: 25px;
+
+    line-height: 25px;
+
+    position: relative;
+
+    text-align: left;
+
+    text-indent: 8px;
+
+    width: 190px;
+
+}
+
+.db {
+
+    display: block;
+
+}
+
+.fleft {
+
+    float: left;
+
+}
+
+.dailydeals_h {
+
+    color: #11447E;
+
+    font-weight: bold;
+
+    line-height: 25px;
+
+    text-align: left;
+
+    text-indent: 8px;
+
+}
+
+.dailydeals_h .dailydeals_pages {
+
+    height: 20px;
+
+    position: absolute;
+
+    right: 2px;
+
+    top: 8px;
+
+    width: 116px;
+
+}
+
+form, img, ul, ol, li, dl, dt, dd, p {
+
+    border: 0 none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.dailydeals_h .dailydeals_pages ul li.active {
+
+    background: url("../images/detail.png") no-repeat scroll -18px -129px transparent;
+
+    color: #FFFFFF;
+
+}
+
+.dailydeals_h .dailydeals_pages ul li {
+
+    background: url("../images/detail.png") no-repeat scroll 0 -129px transparent;
+
+    color: #000000;
+
+    cursor: pointer;
+
+    display: block;
+
+    float: left;
+
+    font-size: 10px;
+
+    font-weight: normal;
+
+    height: 20px;
+
+    line-height: 15px;
+
+    margin-right: 1px;
+
+    text-align: center;
+
+    text-indent: 0;
+
+    width: 17px;
+
+}
+
+.dailydeals_m {
+
+    height: 198px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    text-align: left;
+
+    width: 190px;
+
+}
+
+.items.pt8 {
+
+    padding-top: 8px;
+
+}
+
+.items {
+
+    height: auto;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 12px 0 0 3px;
+
+    position: relative;
+
+    z-index: 20;
+
+}
+
+.items .itembox {
+
+    display: inline;
+
+    float: left;
+
+    height: 266px;
+
+    margin: 0 0 10px 1px;
+
+    padding-bottom: 4px;
+
+    position: relative;
+
+    width: 172px;
+
+}
+
+.itembox .infobox {
+
+    margin-left: 4px;
+
+    overflow: hidden;
+
+    padding-top: 4px;
+
+    width: 172px;
+
+}
+
+.items .proImg {
+
+    display: table-cell;
+
+    height: 132px;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    width: 172px;
+
+}
+
+.items .proImg a:link, .items .proImg a:visited {
+
+    border: 1px solid #E5E5E5;
+
+    display: block;
+
+    height: 130px;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    vertical-align: middle;
+
+    width: 170px;
+
+}
+
+.items .proImg img {
+
+    height: 130px;
+
+    position: relative;
+
+    width: 170px;
+
+    z-index: 1;
+
+}
+
+.items .proImg .pro_discount {
+
+    background: url("../images/sale_zk.png") no-repeat scroll 0 0 transparent;
+
+    height: 33px;
+
+    padding: 10px 0 0 15px;
+
+    position: absolute;
+
+    right: -4px;
+
+    top: 93px;
+
+    width: 50px;
+
+    z-index: 2;
+
+}
+
+
+
+.cff {
+
+    color: #FFFFFF;
+
+}
+
+.f11 {
+
+    font-size: 11px;
+
+}
+
+.items .proImg {
+
+    text-align: center;
+
+}
+
+.fb {
+
+    font-weight: bold;
+
+}
+
+.f14 {
+
+    font-size: 14px;
+
+}
+
+.items .proName {
+
+    clear: both;
+
+    height: 28px;
+
+    line-height: 14px;
+
+    margin: 3px 0 5px;
+
+    overflow: hidden;
+
+    padding-right: 2px;
+
+    text-overflow: ellipsis;
+
+}
+
+.items .proName a {
+
+    color: #666666;
+
+    font-size: 11px;
+
+}
+
+.items .proPri, .items .proRank {
+
+    margin-bottom: 2px;
+
+    margin-top: 2px;
+
+}
+
+.c99 {
+
+    color: #999999;
+
+}
+
+.f11 {
+
+    font-size: 11px;
+
+}
+
+.cf50 {
+
+    color: #FF5A00;
+
+}
+
+
+
+.f12 {
+
+    font-size: 12px;
+
+}

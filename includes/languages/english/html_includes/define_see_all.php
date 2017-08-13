@@ -1,0 +1,2 @@
+<p>&nbsp;</p>
+<p><strong style="font-weight: normal;">To assist you in navigating our site, we have provided the following map.</strong><img class="fr" style="border: 0pt none; margin: 0px;" src="/images/site_map_car.gif" alt="" width="130" height="76" /><br /> If you are having difficulty in locating something on our site, please visit our <a href="/contact_us.html">Contact Us</a> page and let us know!</p>

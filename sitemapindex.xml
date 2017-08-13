@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gss.xsl"?>
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <sitemap>
+  <loc>http://www.enjoygadget.com/sitemapcategories.xml</loc>
+  <lastmod>2012-02-09</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.enjoygadget.com/sitemapezpages.xml</loc>
+  <lastmod>2012-02-09</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.enjoygadget.com/sitemapproducts.xml</loc>
+  <lastmod>2012-02-09</lastmod>
+ </sitemap>
+</sitemapindex>

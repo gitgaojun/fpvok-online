@@ -1,0 +1,1 @@
+<p><img src="/images//banner/join1_us.jpg" alt="join1_us.jpg" width="210" height="210" /></p>

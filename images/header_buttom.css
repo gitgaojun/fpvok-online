@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.autoHeight{font:0px/0px sans-serif;clear:both;display:block;height:0px}
+.DD_beta img{border:none}
+.DD_beta ul,.DD_beta li,.DD_beta dl,.DD_beta dt,.DD_beta dd,.DD_beta form{margin:0px;padding:0px;list-style:none}
+
+/*----------------------------------------框架初始样式-----------------------------------------------------*/
+.DD_beta{font-size:12px;margin:0px auto;color:#333;padding:0px; width:952px;}/*宽屏幕样式*/
+/*----------------------------------------header and buttom----------------------------------------*/
+.beta_header{width:100%}
+.bt_banner{ position:relative; z-index:540;}
+.bt_top{line-height:14px;}
+.bt_top01{width:70px;float:left;padding:7px 0 5px 0px;}
+.bt_top01 a{ margin-left:5px;}
+.bt_top02{float:left}
+.bt_top03{text-align:left;float:right; width:419px;}
+.bt_top01_now a{color:#133E79;}
+.bt_top01_now a:hover{color:#ff9900;}
+
+/* -- index_popup --*/
+.bt_top_pd{ padding-left:5px; padding-right:5px;font-weight: bold;}
+.bt_pop{position:relative;z-index:520;padding:6px 5px;}
+.bt_popup{border:1px solid #cccccc;border-bottom:none;position:relative;top:2px;background:#FFFFFF;z-index:1200;padding:5px 4px; }
+
+.bt_popup_p1{width:150px;background:#FFFFFF;border:1px solid #cccccc;position:absolute;left:0px; top:1px;z-index:1000; text-align:left;}
+.bt_popup_p1 ul li img{margin-right:3px}
+.bt_popup_p2{width:120px;background:#FFFFFF;border:1px solid #cccccc;border-top:none;position:absolute;top:25px;left:-1px;_left:-5px;z-index:50; text-align:left;}
+.bt_popup_p2 li{ line-height:18px;}
+
+.bt_popup_p3{width:145px;background:#FFFFFF; border:1px solid #cccccc;position:absolute;z-index:5000; top:1px;*top:0px;*left:0px;}
+.bt_popup_p3 ul{margin:1px 0 0 5px;text-align:left}
+.bt_popup_p3 ul li{clear:both;line-height:21px;}
+
+
+/* -- sprite--*/
+.sprite{background:url(beta_bg.gif);float:left;margin-right:3px;clear:both}
+.s_beata_1{width:10px;height:18px;background-position:0 0}
+.s_beata_19{width:16px;height:14px;background-position:0 -28px}
+.s_beata_2{width:44px;height:43px;background-position:0 -52px}
+.s_beata_20{width:12px;height:14px;background-position:0 -105px; margin-left:3px;}
+#s_beata_21{width:40px;height:22px;background:url(../images/beta_bg.gif) 0 -129px;float:left;border:none}
+.s_beata_3{width:44px;height:43px;clear:none;margin-left:5px;background-position:0 -165px}
+.s_beata_4{width:99px;height:41px;margin-top:5px;background-position:0 -218px}
+
+.s_func_1{width:24px;height:21px;background-position:0 -814px}
+.s_func_2{width:24px;height:22px;background-position:0 -845px}
+.s_func_3{width:24px;height:21px;background-position:0 -877px}
+.s_func_4{width:24px;height:21px;background-position:0 -908px}
+.s_func_5{width:24px;height:22px;background-position:0 -939px}
+.s_func_6{width:24px;height:21px;background-position:0 -971px}
+.s_func_7{width:24px;height:21px;background-position:0 -1002px}
+.s_func_8{width:24px;height:22px;background-position:0 -1033px}
+.s_func_9{width:24px;height:21px;background-position:0 -1065px}
+.s_func_10{width:24px;height:21px;background-position:6px -402px}
+.s_func_11{width:24px;height:21px;background-position:5px -1324px}
+.s_state_1{width:16px;height:11px;background-position:0 -1096px}
+.s_state_10{width:16px;height:11px;background-position:0 -1117px}
+.s_state_11{width:16px;height:11px;background-position:0 -1138px}
+.s_state_2{width:16px;height:11px;background-position:0 -1159px}
+.s_state_3{width:16px;height:11px;background-position:0 -1180px}
+.s_state_4{width:16px;height:11px;background-position:0 -1201px}
+.s_state_5{width:16px;height:11px;background-position:0 -1222px}
+.s_state_6{width:16px;height:11px;background-position:0 -1243px}
+.s_state_7{width:16px;height:11px;background-position:0 -1264px}
+.s_state_8{width:16px;height:11px;background-position:0 -1285px}
+.s_state_9{width:16px;height:11px;background-position:0 -1306px}
+
+
+
+.topdyy{overflow:hidden; *float:left; line-height:17px; padding:2px 0;}
+.topdyy_tb{ margin-top:6px; float:left;}
+.top_tc{position:relative; z-index:6080; clear:both;}
+.bt_popup_long{ width:83px; float:left;}
+.ie6_tc{_left:-50px;}

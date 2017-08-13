@@ -1,0 +1,132 @@
+@charset "utf-8";
+.leftmenu {
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+	padding-left: 6px;
+    width: 178px;
+	 BACKGROUND: url(menul_bg.jpg) no-repeat; 
+}
+.leftad1 {
+    float: left;
+    width: 182px;
+}
+#mainwrap{ width:975px; margin:0px auto; text-align:left;}
+.leftside{float:left; }
+
+.classrmenu {
+	POSITION: relative; WIDTH: 749px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px
+}
+
+.ddsmoothmenu-v UL {
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 182px;
+}
+
+.ddsmoothmenu-v UL LI {
+	POSITION: relative
+}
+.ddsmoothmenu-v UL LI A {
+  border-color: #EEEEEE;
+  border-style: solid;
+  border-width: 0;
+  display: block;
+  height: 23px;
+  line-height: 23px;
+  margin: 0 0 1px;
+  overflow: auto;
+  padding: 0 0 0 5px;
+}
+.ddsmoothmenu-v UL LI A:link {
+	TEXT-ALIGN: left; COLOR: #000; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI A:visited {
+	TEXT-ALIGN: left; COLOR: #000; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI A:active {
+	TEXT-ALIGN: left; COLOR: #000; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI A:hover {
+	 LINE-HEIGHT: 23px; BACKGROUND: #ffffff; HEIGHT: 23px; COLOR: #990000;  TEXT-DECORATION: underline
+}
+.ddsmoothmenu-v UL LI A.selected {
+	LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000
+}
+.ddsmoothmenu-v UL LI UL {
+	BORDER-BOTTOM: #999 1px solid; POSITION: absolute; BORDER-LEFT: #999 1px; WIDTH: 230px; VISIBILITY: hidden; BORDER-TOP: #999 1px solid; TOP: 0px; BORDER-RIGHT: #999 1px solid
+}
+.ddsmoothmenu-v UL LI UL LI {
+	BORDER-LEFT: #999 1px solid
+}
+.ddsmoothmenu-v UL LI UL .first_li {
+	BORDER-LEFT-STYLE: none
+}
+.ddsmoothmenu-v UL LI UL LI A {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.ddsmoothmenu-v UL LI UL LI A:link {
+	LINE-HEIGHT: 24px; BACKGROUND: #fff; HEIGHT: 24px; COLOR: #000; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI UL LI A:visited {
+	LINE-HEIGHT: 24px; BACKGROUND: #fff; HEIGHT: 24px; COLOR: #000; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI UL LI A:active {
+	LINE-HEIGHT: 24px; BACKGROUND: #fff; HEIGHT: 24px; COLOR: #000; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI UL LI A:hover {
+	BACKGROUND: #fff; COLOR: #990000;TEXT-DECORATION: underline;
+}
+.ddsmoothmenu-v UL LI UL LI UL LI A:hover {
+	BORDER-RIGHT-WIDTH: 0px; BACKGROUND: #fff; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #990000; BORDER-LEFT-WIDTH: 0px;
+}
+.ddsmoothmenu-v UL LI UL LI A.selected {
+	BACKGROUND: #fff; COLOR: #990000
+}
+* HTML .ddsmoothmenu-v UL LI {
+	FLOAT: left; HEIGHT: 100%
+}
+* HTML .ddsmoothmenu-v UL LI A {
+	HEIGHT: 100%
+}
+
+.rightarrowclass {
+	POSITION: absolute; TOP: 6px; RIGHT: 5px
+}
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.8;
+}
+.ddsmoothmenu-v #chcss A.selected {
+	Z-INDEX: 1000;  LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000;
+}
+.ddsmoothmenu-v #chcss A:hover {
+	LINE-HEIGHT: 24px; HEIGHT: 24px; COLOR: #990000;  
+}
+.ddsmoothmenu-v #chcss #chcss A:hover {
+	BORDER-BOTTOM: #999 1px solid;  LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000;
+}
+.ddsmoothmenu-v #chcss UL LI A:hover {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 24px; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-LEFT-STYLE: none; 
+}
+.ddsmoothmenu-v #chcss #chcss UL LI A:hover {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 24px; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-LEFT-STYLE: none
+}
+LI.first_li A.imstyle {
+	COLOR: #ff3300 !important
+}

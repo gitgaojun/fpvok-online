@@ -1,0 +1,47 @@
+2014-08-21 01:56:47
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 45
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart - WPP-NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.3.8a
+)
+
+
+Request Parameters: {SetExpressCheckout} 
+Array
+(
+    [LOCALECODE] => US
+    [PAYMENTACTION] => Sale
+    [AMT] => 64.90
+    [RETURNURL] => http://www.fpvok.com/ipn_main_handler.php?type=ec
+    [CANCELURL] => http://www.fpvok.com/index.php?main_page=login&amp;ec_cancel=1
+    [PAGESTYLE] => fpvok
+    [METHOD] => SetExpressCheckout
+    [CURRENCYCODE] => USD
+    [USER] => 569559041_api1.qq.com
+    [PWD] => ****************
+    [VERSION] => 3.2
+    [SIGNATURE] => ****************************************************T.zG
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-3E9885179P124601D
+    [TIMESTAMP] => 2014-08-20T17:56:51Z
+    [CORRELATIONID] => 6b4cf1d555342
+    [ACK] => Success
+    [VERSION] => 3.2
+    [BUILD] => 12364540
+    [CURL_ERRORS] => 
+)
+
+
+SetExpressCheckout, Elapsed: 642ms -- Success
+

@@ -1,0 +1,118 @@
+@charset "utf-8";
+.leftmenu {
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 30px;
+    text-indent: 10px;
+	padding-left: 6px;
+    width: 188px;
+	 BACKGROUND: url(menul_bg.jpg) no-repeat; 
+}
+
+.leftad1 {
+	BORDER-BOTTOM: #f4f4f4 1px solid; BORDER-LEFT: #f4f4f4 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 182px; PADDING-RIGHT: 1px; FLOAT: left; BORDER-TOP: #f4f4f4 0px solid; BORDER-RIGHT: #f4f4f4 1px solid; PADDING-TOP: 1px
+}
+#mainwrap{ width:975px; margin:0px auto; text-align:left;}
+.leftside{ width:184px; float:left; }
+
+.classrmenu {
+	POSITION: relative; WIDTH: 749px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px
+}
+
+.ddsmoothmenu-v UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 182px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+
+.ddsmoothmenu-v UL LI {
+	POSITION: relative
+}
+.ddsmoothmenu-v UL LI A {
+	BORDER-BOTTOM: #eeeeee 1px solid; BORDER-LEFT: #eeeeee 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; MARGIN: 0px 0px 1px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; DISPLAY: block; HEIGHT: 24px; COLOR: #000; OVERFLOW: auto; BORDER-TOP: #eeeeee 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #eeeeee 1px solid; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.ddsmoothmenu-v UL LI A:link {
+	TEXT-ALIGN: left; COLOR: #000; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI A:visited {
+	TEXT-ALIGN: left; COLOR: #000; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI A:active {
+	TEXT-ALIGN: left; COLOR: #000; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI A:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI A.selected {
+	LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000
+}
+.ddsmoothmenu-v UL LI UL {
+	BORDER-BOTTOM: #999 1px solid; POSITION: absolute; BORDER-LEFT: #999 1px; WIDTH: 230px; VISIBILITY: hidden; BORDER-TOP: #999 1px solid; TOP: 0px; BORDER-RIGHT: #999 1px solid
+}
+.ddsmoothmenu-v UL LI UL LI {
+	BORDER-LEFT: #999 1px solid
+}
+.ddsmoothmenu-v UL LI UL .first_li {
+	BORDER-LEFT-STYLE: none
+}
+.ddsmoothmenu-v UL LI UL LI A {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.ddsmoothmenu-v UL LI UL LI A:link {
+	LINE-HEIGHT: 24px; BACKGROUND: #fff; HEIGHT: 24px; COLOR: #000; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI UL LI A:visited {
+	LINE-HEIGHT: 24px; BACKGROUND: #fff; HEIGHT: 24px; COLOR: #000; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI UL LI A:active {
+	LINE-HEIGHT: 24px; BACKGROUND: #fff; HEIGHT: 24px; COLOR: #000; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.ddsmoothmenu-v UL LI UL LI A:hover {
+	BACKGROUND: #fff; COLOR: #990000
+}
+.ddsmoothmenu-v UL LI UL LI UL LI A:hover {
+	BORDER-RIGHT-WIDTH: 0px; BACKGROUND: #fff; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #990000; BORDER-LEFT-WIDTH: 0px
+}
+.ddsmoothmenu-v UL LI UL LI A.selected {
+	BACKGROUND: #fff; COLOR: #990000
+}
+* HTML .ddsmoothmenu-v UL LI {
+	FLOAT: left; HEIGHT: 100%
+}
+* HTML .ddsmoothmenu-v UL LI A {
+	HEIGHT: 100%
+}
+
+.rightarrowclass {
+	POSITION: absolute; TOP: 6px; RIGHT: 5px
+}
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.8;
+}
+.ddsmoothmenu-v #chcss A.selected {
+	Z-INDEX: 1000; BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px
+}
+.ddsmoothmenu-v #chcss A:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px
+}
+.ddsmoothmenu-v #chcss #chcss A:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; LINE-HEIGHT: 24px; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px
+}
+.ddsmoothmenu-v #chcss UL LI A:hover {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 24px; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-LEFT-STYLE: none
+}
+.ddsmoothmenu-v #chcss #chcss UL LI A:hover {
+	BORDER-BOTTOM-STYLE: none; LINE-HEIGHT: 24px; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BACKGROUND: #ffffff; HEIGHT: 24px; COLOR: #990000; BORDER-LEFT-STYLE: none
+}
+LI.first_li A.imstyle {
+	COLOR: #ff3300 !important
+}

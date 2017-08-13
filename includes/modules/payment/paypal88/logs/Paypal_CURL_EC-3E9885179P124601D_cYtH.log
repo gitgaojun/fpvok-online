@@ -1,0 +1,57 @@
+2014-08-21 01:57:37
+-------------------
+(live transaction) --> https://api-3t.paypal.com/nvp
+Request Headers: 
+Array
+(
+    [0] => Content-Type: text/namevalue
+    [1] => X-VPS-Timeout: 45
+    [2] => X-VPS-VIT-Client-Type: PHP/cURL
+    [3] => X-VPS-VIT-Integration-Product: PHP::Zen Cart - WPP-NVP
+    [4] => X-VPS-VIT-Integration-Version: 1.3.8a
+)
+
+
+Request Parameters: {GetExpressCheckoutDetails} 
+Array
+(
+    [TOKEN] => EC-3E9885179P124601D
+    [REQBILLINGADDRESS] => 1
+    [METHOD] => GetExpressCheckoutDetails
+    [USER] => 569559041_api1.qq.com
+    [PWD] => ****************
+    [VERSION] => 3.2
+    [SIGNATURE] => ****************************************************T.zG
+)
+
+
+Response: 
+Array
+(
+    [TOKEN] => EC-3E9885179P124601D
+    [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+    [TIMESTAMP] => 2014-08-20T17:57:41Z
+    [CORRELATIONID] => cffdaa4a478cb
+    [ACK] => Success
+    [VERSION] => 3.2
+    [BUILD] => 12364540
+    [EMAIL] => margus.sibul@gmail.com
+    [PAYERID] => BWEAQ38H9XMJA
+    [PAYERSTATUS] => verified
+    [FIRSTNAME] => margus
+    [LASTNAME] => sibul
+    [COUNTRYCODE] => EE
+    [SHIPTONAME] => margus sibul
+    [SHIPTOSTREET] => ravila49-24
+    [SHIPTOCITY] => Tartu
+    [SHIPTOSTATE] => Tartumaa
+    [SHIPTOZIP] => 50408
+    [SHIPTOCOUNTRYCODE] => EE
+    [SHIPTOCOUNTRYNAME] => Estonia
+    [ADDRESSSTATUS] => Unconfirmed
+    [CURL_ERRORS] => 
+)
+
+
+GetExpressCheckoutDetails, Elapsed: 632ms -- Success
+
